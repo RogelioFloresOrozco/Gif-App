@@ -1,0 +1,13 @@
+
+<div class="row">
+  <div class="col-md-4 col-sm-6 animate__animated animate__fadeIn" *ngFor="let image of resultados">
+    <div class="card">
+      <img [src]="image.images.downsized_medium.url" [alt]="image.title" class="card-image-top">
+      <div class="card-body">
+        <p class="card-text">
+            <!-- {{image.images.downsized_medium.url}} -->
+        </p>
+  </div>
+    </div>
+  </div>
+</div>
